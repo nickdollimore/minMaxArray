@@ -9,16 +9,16 @@ public class MinMaxArray {
             System.out.println(numbers[i] + " ");
         }
         int maxValue = numbers[0];
-        for (int i=0; i<numbers.length; i++) {
-            if (numbers[i] > maxValue) {
+        for(int i=0; i<numbers.length; i++) {
+            if(numbers[i] > maxValue) {
                 maxValue = numbers[i];
             }
         }
         System.out.println("The maximum value is " +maxValue);
 
         int minValue = numbers[0];
-        for (int j=0; j<numbers.length; j++) {
-            if (numbers[j] < minValue) {
+        for(int j=0; j<numbers.length; j++) {
+            if(numbers[j] < minValue) {
                 minValue = numbers[j];
             }
         }
